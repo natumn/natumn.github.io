@@ -1,22 +1,27 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
+      <!-- insert icon <app-logo/> -->
       <h1 class="title">
         natumn.github.io
       </h1>
-      <h2 class="subtitle">
-        natumn portfolio site.
-      </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://twitter.com/natumndb"
           target="_blank"
-          class="button--green">Documentation</a>
+          class="button--green">Twitter</a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/natumn"
           target="_blank"
           class="button--grey">GitHub</a>
+        <a
+          href="http://nktafuse.hatenablog.com/"
+          target="_blank"
+          class="button--blue">はてなブログ</a>
+        <a
+          href="https://natumn.github.io/blog"
+          target="_blank"
+          class="button--red">natumn Blog</a>
       </div>
     </div>
   </section>

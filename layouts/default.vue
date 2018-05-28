@@ -49,4 +49,34 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+.button--blue {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #46EEFF;
+  color: #46EEFF;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--blue:hover {
+  color: #fff;
+  background-color: #46EEFF;
+}
+
+.button--red {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #FF0461;
+  color: #FF0461;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--red:hover {
+  color: #fff;
+  background-color: #FF0461;
+}
 </style>
