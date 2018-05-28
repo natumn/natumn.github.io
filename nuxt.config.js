@@ -1,7 +1,14 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/natumn.github.io/'
+  }
+} : {}
+
 module.exports = {
   /*
   ** Headers of the page
   */
+  routerBase,
   head: {
     title: 'natumn.github.io',
     meta: [
