@@ -1,3 +1,4 @@
+const webpack = require('webpack')
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
     base: '/natumn.github.io/'
@@ -40,6 +41,15 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    },
+
+    module: {
+      rules: [
+        {
+          test: /\.md$/,
+          loader: 'vue-markdown-loader'
+        }
+      ]
     }
   }
 }
