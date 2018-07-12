@@ -1,0 +1,4 @@
+baseURL = "http://natumn.github.io/"
+languageCode = "ja"
+title = "natumn.github.io"
+theme = "kube"
